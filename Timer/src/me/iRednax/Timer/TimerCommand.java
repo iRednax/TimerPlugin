@@ -27,7 +27,7 @@ public class TimerCommand implements CommandExecutor {
 					Main.getMain().setTime(v);
 					Bukkit.broadcastMessage("Der Timer ist nun auf " + v + "!");
 				} catch(Exception e) {
-					sender.sendMessage("§cBitte gib eine Zahl ein!");
+					sender.sendMessage("§cBitte gib eine Zahl ein!!");
 				}
 				Main.getMain().getRunnable().cancel();
 			}

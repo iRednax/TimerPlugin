@@ -1,0 +1,6 @@
+name: Timer
+version: 1.0
+main: me.iRednax.Timer.Main
+commands:
+  timer:
+    permission: timer.timer
